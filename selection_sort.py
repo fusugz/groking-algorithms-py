@@ -8,7 +8,6 @@ def selectionSort(arr):
         newArr.append(smallestItem)
     return newArr
 
-
 def findSmallest(arr):
     smallest = arr[0]
     smallest_index = 0
@@ -20,3 +19,5 @@ def findSmallest(arr):
 
 originArr = [7, 5, 9, 3, 2, 6]
 print(selectionSort(originArr))
+
+
